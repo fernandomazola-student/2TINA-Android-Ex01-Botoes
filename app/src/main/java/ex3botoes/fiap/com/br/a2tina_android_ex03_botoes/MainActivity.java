@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
        if(cont < 10){
             cont++;
         }else{
-            Toast.makeText(this, "Contador só pode incremetar até 10", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Contador só pode incrementar até 10", Toast.LENGTH_SHORT).show();
         }
         txtv.setText("" + cont);
     }
